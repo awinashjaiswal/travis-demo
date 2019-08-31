@@ -10,5 +10,5 @@ before_script:
   - npm install -g @angular/cli
 script:
 - ng lint
-- ng headlessTest
+- npm run headlessTest
 - ng build --prod --base-href https://t-palmer.github.io/travis-demo/
